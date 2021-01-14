@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Services";
+}
+
+
+
+<section id="main">
+    <div class="container">
+        <article id="main-col">
+            <h1 class="title">Services</h1>
+
+            <ul id="services">
+                <li>
+                    <h3>Unity Games</h3>
+                    <p>Nulla finibus, tortor sed pretium rhoncus, augue diam laoreet ligula, vulputate iaculis tellus ligula at metus. Etiam fermentum mi et vehicula accumsan. Curabitur ex ligula, venenatis non placerat quis, dictum eget neque. Morbi tristique ipsum et gravida lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    <p>Price: Since 35&euro;</p>
+                </li>
+
+                <li>
+                    <h3>3D Games</h3>
+                    <p>Fusce cursus, ante vitae efficitur facilisis, augue nisi porttitor tellus, eget dictum tellus tortor vitae mauris. Etiam tempus placerat congue. Mauris venenatis eget nisi eu tristique. Nullam eleifend diam ut fermentum efficitur. Proin et consequat elit. Aliquam in justo in nunc pretium condimentum. Mauris vulputate finibus nisi, tempus tempor orci.</p>
+                    <p>Price: Since 55&euro;</p>
+                </li>
+
+                <li>
+                    <h3>Scenery and Chatacter builder</h3>
+                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse in tristique velit. Aliquam facilisis est nec odio lobortis viverra. Pellentesque blandit velit nec urna varius pulvinar. Nullam ut tempus metus, et commodo nisl. Fusce quis venenatis ipsum. Sed sed arcu ac dui interdum posuere.</p>
+                    <p>Price: Since 70&euro;</p>
+                </li>
+
+            </ul>
+
+        </article>
+
+
+
+
+        <aside id="sidebar">
+            <div class="dark">
+                <h3>Request a budget</h3>
+                <form class="budget">
+                    <div>
+                        <label>Name</label><br>
+                        <input type="text" placeholder="Write your name" />
+                    </div>
+
+                    <div>
+                        <label>Email</label><br>
+                        <input type="email" placeholder="Insert your email" />
+                    </div>
+
+                    <div>
+                        <label>Message</label><br>
+                        <textarea placeholder="Leave your message"></textarea>
+                    </div>
+
+                    <button class="button1" type="submit">Submit</button>
+                </form>
+            </div>
+        </aside>
+    </div>
+</section>
+
+
+
+
+
+@section Scripts{
+    <script type="text/javascript">
+        document.querySelector('#services').className = 'selecionado';
+    </script>
+}

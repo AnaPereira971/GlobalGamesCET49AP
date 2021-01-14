@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+
+
+<section id="boxes">
+    <div class="container">
+        <div class="box">
+            <img src="~/images/logo_html.png">
+            <h3>Unity Games</h3>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+        </div>
+
+        <div class="box">
+            <img src="~/images/logo_css.png">
+            <h3>3D Games</h3>
+            <p>Sed non eros id purus pulvinar malesuada.</p>
+        </div>
+
+        <div class="box">
+            <img src="~/images/logo_brush.png">
+            <h3>Scenery and Character builder</h3>
+            <p>Donec in eleifend orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+@section Scripts{
+    <script type="text/javascript">
+        document.querySelector('#home').className = 'selecionado';
+    </script>
+}
